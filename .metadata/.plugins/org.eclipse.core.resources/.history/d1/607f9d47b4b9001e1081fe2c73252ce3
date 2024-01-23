@@ -1,0 +1,16 @@
+package com.example.demo;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.example.demo.components.Addd;
+
+public class Cal {
+@Autowired
+Addd a;
+Minus s;
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

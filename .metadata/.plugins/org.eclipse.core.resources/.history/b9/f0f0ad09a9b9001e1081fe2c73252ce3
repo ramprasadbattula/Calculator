@@ -1,0 +1,26 @@
+package com.example.demo;
+
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+
+@SpringBootApplication
+@Autowired
+public class DemoAdddApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(DemoAdddApplication.class, args);
+		
+		
+		
+		Addd additionn;
+		int res = additionn.addition(10,15);
+		System.out.println( res);
+		
+	}
+
+	
+
+}

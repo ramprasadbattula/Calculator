@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="adddTest" project="demo" tests="1" started="1" failures="1" errors="0" ignored="0">
+  <testsuite name="com.example.demo.adddTest" time="0.001" displayname="adddTest" uniqueid="[engine:junit-jupiter]/[class:com.example.demo.adddTest]">
+    <testcase name="test" classname="com.example.demo.adddTest" time="0.001" displayname="test()" uniqueid="[engine:junit-jupiter]/[class:com.example.demo.adddTest]/[method:test()]">
+      <failure>org.opentest4j.AssertionFailedError: Not yet implemented&#13;
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)&#13;
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:138)&#13;
+	at com.example.demo.adddTest.test(adddTest.java:11)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+&#13;
+</failure>
+    </testcase>
+  </testsuite>
+</testrun>

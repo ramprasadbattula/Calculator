@@ -1,0 +1,16 @@
+package com.example.demo;
+
+import org.springframework.stereotype.Component;
+
+
+
+@Component
+public class Addd {
+
+	public int addition(int a, int b) {
+		return a+b;
+	
+	}
+
+
+}

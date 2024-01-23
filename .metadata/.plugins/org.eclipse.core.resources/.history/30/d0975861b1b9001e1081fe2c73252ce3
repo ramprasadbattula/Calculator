@@ -1,0 +1,18 @@
+package com.example.demo.components;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+
+
+@Configuration
+public class Addd {
+
+    @Bean
+	public int addition(int a, int b) {
+		int result= a+b;
+		return result;
+	}
+
+
+}

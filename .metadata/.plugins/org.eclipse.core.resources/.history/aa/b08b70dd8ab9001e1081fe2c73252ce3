@@ -1,0 +1,8 @@
+package com.example.demo;
+
+public class addd {
+public int addition(int a, int b) {
+	 int result= a+b;
+	 return result;
+}
+}

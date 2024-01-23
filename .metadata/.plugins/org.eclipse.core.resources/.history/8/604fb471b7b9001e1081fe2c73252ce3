@@ -1,0 +1,26 @@
+package com.example.demo;
+
+import java.util.Scanner;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+@Autowired
+Addd ad;
+Minus s;
+public class Cal {
+
+	public static void main(String[] args) {
+		
+		System.out.println("What do you want to perform:\n 1) Addition \n 2)Subtraction ");
+		Scanner in= new Scanner(System.in);
+		int x=in.nextInt();
+		if (x==1) {
+			System.out.println("Enter numbers to add");
+			 a= in.nextInt();
+			b=in.nextInt();
+			
+		}
+
+	}
+
+}

@@ -1,0 +1,16 @@
+package com.example.demo;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+
+
+public class Minus {
+	@Bean
+	public void sub(int a, int b) {
+		int r =a-b;
+		System.out.println(r);
+	}
+
+}

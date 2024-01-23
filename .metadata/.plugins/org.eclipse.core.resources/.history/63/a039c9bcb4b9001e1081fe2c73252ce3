@@ -1,0 +1,14 @@
+package com.example.demo;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+public class Cal {
+@Autowired
+Addd a;
+Minus s;
+	public static void main(String[] args) {
+		System.out.println("What do you want to perform:\n\t 1) Addition \n\t 2)Subtraction ");
+
+	}
+
+}

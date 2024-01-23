@@ -1,0 +1,22 @@
+package com.example.demo;
+
+import java.net.http.HttpRequest;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+
+
+@Controller
+@RequestMapping("Math")
+public class SampleRestController {
+	
+	@Autowired
+	Addd additionn;
+	
+	@PostMapping("/addit")
+	public @ResponseBody String addValues() {
+		
+	}
+	               
+
+}
