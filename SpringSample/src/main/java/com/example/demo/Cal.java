@@ -35,6 +35,7 @@ public class Cal implements CommandLineRunner {
 		else {
 			System.out.println("Invalid Choice!!! Enter correct option either 1 or 2....");
 		}
+		in.close();
 		}
 
 	}
